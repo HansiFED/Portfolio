@@ -73,6 +73,7 @@ footer {
   align-self: center;
   width: 100%;
   max-width: 1600px;
+  margin: 50px;
   align-items: center;
   background-color: #ffffff;
 }
