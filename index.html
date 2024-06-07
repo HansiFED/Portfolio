@@ -6,10 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HansiFED - Portfolio </title>
     <meta name="description" content="My portfolio of projects that I've done and enjoyed my time with">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <p>HansiFED</p>
+        <div class="flex-r headerRight">
+            <a class="headerLinks" href="">About</a>
+            <a class="headerLinks" href="#bottom">Get In Touch</a>
+        </div>
+    </header>
+    <main>
+        <section class="headerBanner flex-r">
+            <h1> Elevating Front End Development</h1>
+            <img id="meImage" src="media/Purple3.png" alt="Image of me pointing to my projects">
+        </section>
+        <section class="projectsWrapper">
+            <h2> My Last Projects: </h2>
+            <div class="projectContainer flex-r">
+                <img class="projectContainerImg" src="/media/1.jpg" alt="My Exam Project">
+                <div class="projectContainerInfoWrapper">
+                    <h3> Techbyte - Noroff Project Exam </h3>
+                    <p> For our first year exam we were tasked with building a front end application for a blogpost
+                        website, where you could choose / make up the client yourself. Here we would be handling and
+                        building most of the website dynamically using a supplied API from noroff and javascript to
+                        process the logic. Through a combination of localstorage, url key & value pairs, and lots more I
+                        was able to build a pretty sleek and good looking blogging site that builds most things
+                        dynamically in my ever so humble opinion. The site features the ability to log in to a user, to
+                        register a user and also it will not let you edit / post or be on pages you're not allowed to
+                        have access to if you are not logged in as an administrator / owner. This project has taught me
+                        lots about handling of API's in general and how to use them in a practical setting, so should I
+                        want to make something of the same sort later, I will now have something to refer to experience
+                        from. All in all, very happy with how it turned out.</p>
+                    <div class="projectContainerButtonWrapper flex-r">
+                        <a href="https://github.com/NoroffFEU/FED1-PE1-itsHazeyboi" class="projectLinks"> View GitHub
+                            Repo </a>
+                        <a href="https://norofffeu.github.io/FED1-PE1-itsHazeyboi/" class="projectLinks"> Visit Live
+                            Site </a>
+                    </div>
 
+                </div>
+            </div>
+            <div class="projectContainer flex-r">
+                <img class="projectContainerImg" src="/media/2.jpg" alt="My Semester Project">
+                <div class="projectContainerInfoWrapper">
+                    <h3> Community Science Museum - Noroff Semester Project </h3>
+                    <p> My Noroff semester project where our task was to make a webpage for a museum (we had not learnt
+                        to use javascript at this time) that would appeal to kids between the ages 7-15. This was our
+                        task: "The site should appeal to youngsters without pandering; while aiming at a younger
+                        audience it should not patronise them with overtly childish themes. The core purpose of the site
+                        is to excite and entice people to visit the museum." The whole purpose of the website is to act
+                        more like information pamphlet with visuals and there is not a whole lot of functionality due to
+                        the nature of not having javascript included aswell.
+
+                        However I feel like it turned out great, I scored a 92/100 for the marking criteria and went
+                        with a light design that was bright and colorful to inspire kids and youngsters.</p>
+                    <div class="projectContainerButtonWrapper flex-r">
+                        <a href="https://github.com/HansiFED/Semester-Project" class="projectLinks"> View GitHub Repo
+                        </a>
+                        <a href="https://hansifed.github.io/Semester-Project/" class="projectLinks"> Visit Live Site
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="projectContainer flex-r">
+                <img class="projectContainerImg" src="/media/3.jpg" alt="My CSS / HTML / Design Project">
+                <div class="projectContainerInfoWrapper">
+                    <h3> GameHub - Cross-Course Project </h3>
+                    <p> This was our Cross-Course Project (Design, HTML & CSS) where we would implement what we had
+                        learned from Design, HTML and CSS. We got the option of choosing between either RainyDays
+                        (outside clothing website), GameHub (video game website) or SquareEyes (movie and film website).
+                        I chose to go with GameHub, as it was what I felt the most connected to (being a gamer myself).
+                        I took some inspiration from all the big name's in the market like steam, epic games and the
+                        list goes on. Then I combined them into sort of like a hybrid of them all and I must say I'm
+                        very pleased with the result. The problem I've felt with all of those mentioned above is that
+                        either they are way too cluttered or there is way too little information to be found or you have
+                        to navigate in a frustrating way to get where you want.
+
+                        But to summarize, probably one of the designs I'm the most happy with during my first year at
+                        noroff, as I am a sucker for minimalism and contrast.</p>
+                    <div class="projectContainerButtonWrapper flex-r">
+                        <a href="https://github.com/HansiFED/GameHub" class="projectLinks"> View GitHub Repo </a>
+                        <a href="https://hansifed.github.io/GameHub/" class="projectLinks"> Visit Live Site </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyRightContainer">
+            <p>HansiFED</p>
+            <p id="copyRightText">Copyright © HansiFED </p>
+        </div>
+        <div class="getinTouchContainer" id="bottom">
+            <p>Get In Touch:</p>
+            <a href="https://github.com/HansiFED">
+                <img class="footerIMG" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                    alt="github logo"></a>
+            <a href="https://www.linkedin.com/in/hans-willmar-berentsen-68a65825a/">
+                <img class="footerIMG"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+                    alt="linkedIn logo"></a>
+        </div>
+    </footer>
 </body>
 
 </html>

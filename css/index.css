@@ -1,0 +1,142 @@
+body {
+  font-family: "inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  max-width: 1600px;
+  width: 100%;
+  align-self: center;
+}
+
+h1 {
+  font-weight: 400;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+  color: #4e4e4e;
+  align-self: center;
+  font-size: 50px;
+  margin: 0px;
+  position: relative;
+  top: 40px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0px;
+  align-self: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0px 60px;
+  max-width: 1600px;
+  font-size: 20px;
+  width: 100%;
+  align-self: center;
+}
+
+.headerLinks {
+  all: unset;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.headerLinks:hover {
+  transition: 0.3s;
+  background-color: #282444;
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
+.headerRight {
+  justify-content: space-between;
+  width: 325px;
+}
+
+.headerBanner {
+  background-color: #ffffff;
+  height: 540px;
+  justify-content: center;
+}
+
+#meImage {
+  position: relative;
+  bottom: -175px;
+}
+
+.projectsWrapper {
+  background-color: #282444;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 40px;
+}
+
+.projectsWrapper p,
+.projectsWrapper h2,
+.projectsWrapper h3 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.projectContainer {
+  align-items: center;
+  padding: 60px;
+}
+
+.projectContainerImg {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.projectContainerInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+}
+
+.projectContainerInfoWrapper > p {
+  line-height: 30px;
+}
+
+.projectContainerButtonWrapper {
+  align-self: flex-end;
+  width: 400px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.projectLinks {
+  all: unset;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #1f1c34;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.projectLinks:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: #ff6f00;
+  transform: scale(1.1);
+}
+
+.flex-c {
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
