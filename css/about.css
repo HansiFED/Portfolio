@@ -115,6 +115,10 @@ footer p {
     height: 500px;
   }
 
+  h1 {
+    font-size: 40px;
+  }
+
   .aboutMeSection {
     max-width: 70%;
   }
@@ -124,6 +128,11 @@ footer p {
   .aboutMeSection {
     max-width: 90%;
     padding: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
   }
 
   .copyRightContainer {
